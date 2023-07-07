@@ -27,7 +27,7 @@ go build -o notely && ./notely
 This project uses a MySQL database for persistent storage. You can install MySQL locally for local development, or connect to a remote database.
 
 Add *your* database connection string to your `.env` file. Here's an example:
-
+The below URL had to be changed for the migrate script to run
 ```bash
 DATABASE_URL="username:password@host/dbname?tls=true"
 ```
